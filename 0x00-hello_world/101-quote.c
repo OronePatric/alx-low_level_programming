@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * main - print line without using printf/puts and outputs it to the standarderror.
+ * main - print line to the standarderror.
  * Return: 1 (success)
  */
 int main(void)
