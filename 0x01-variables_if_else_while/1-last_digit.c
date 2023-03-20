@@ -19,7 +19,7 @@ printf("Last digit of %d is %d and is greater than 5\n", n, lastDigit);
 }
 else if (lastDigit == 0)
 {
-printf("Last digit of %d is %d  and is 0\n", n, lastDigit);
+printf("Last digit of %d is %d and is 0\n", n, lastDigit);
 }
 else if (lastDigit > 0 && lastDigit < 6)
 {
@@ -28,16 +28,12 @@ printf("Last digit of %d is %d and is less than 6 but not 0 ", n, lastDigit);
 }
 else
 {
-lastDigit = -n % 10;
-if (lastDigit > 5)
+lastDigit = n % 10;
+if (lastDigit == 0)
 {
-printf("Last digit of %d is %d and is greater than 5\n", n, lastDigit);
+printf("Last digit of %d is %d and is 0\n", n, lastDigit);
 }
-else if (lastDigit == 0)
-{
-printf("Last digit of %d is %d  and is 0\n", n, lastDigit);
-}
-else if (lastDigit > 0 && lastDigit < 6)
+else
 {
 printf("Last digit of %d is %d and is less than 6 but not 0 ", n, lastDigit);
 }
