@@ -2,10 +2,18 @@
 /**
  * _putchar - write the character c to the stdout
  * @c: parameter to print.
- * Return On success 1
- * On error, -1 is returned, and errno is set appropriately.
+ * Return: 0(success)
  */
 int _putchar(char c)
 {
-return (write(1, &c, 1));
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+
+return (0);
 }
