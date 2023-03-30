@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * _putchar - write the character c to the stdout
  * @c: parameter to print.
